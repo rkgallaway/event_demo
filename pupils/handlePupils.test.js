@@ -1,6 +1,6 @@
 'use strict';
 
-const handlePupils = require('./handlePupils.js');
+const handlePupils = require('./index.js');
 
 describe('Testing the pupil handler', () => {
 
@@ -11,3 +11,4 @@ describe('Testing the pupil handler', () => {
     expect(console.log).toHaveBeenCalledWith('Pupils: Dilation Updated!', 'close');
   });
 });
+

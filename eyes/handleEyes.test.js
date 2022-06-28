@@ -1,6 +1,6 @@
 'use strict';
 
-const handleEyes = require('./handleEyes.js');
+const handleEyes = require('./index.js');
 const eventPool = require('../eventPool.js');
 
 // path to the module to mock
