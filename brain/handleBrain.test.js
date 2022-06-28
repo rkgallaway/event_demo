@@ -1,6 +1,6 @@
 'use strict';
 
-const handleBrain = require('./handleBrain.js');
+const handleBrain = require('./index.js');
 const eventPool = require('../eventPool.js');
 
 // path to the module to mock
